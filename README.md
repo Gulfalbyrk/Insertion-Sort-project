@@ -6,21 +6,27 @@ www.patika.dev çalışması
 
   1)Yukarı verilen dizinin sort türüne göre aşamalarını yazınız
   
-      -[2,6,16,22,18,27]
-      
-      -[2,6,16,18,22,27]
+    -[2,27,16,22,18,6]
+    
+    -[2,6,22,16,18,27]
+    
+    -[2,6,16,22,27,18]
+    
+    -[2,6,16,18,27,22]
+    
+    -[2,6,16,18,22,27]
       
   2)Big-O gösterimini yazınız.
   
-      -o(n^2)
+      -n*(n+1)/2 -> O(n^2)
       
   3)Time Complexity: 
   
-      -Average case: Aradığımız sayının ortada olması, 
+      -Average case: Aradığımız sayının ortada olması, O(n^2)
       
-      -Worst case: Aradığımız sayının sonda olması, 
+      -Worst case: Aradığımız sayının sonda olması, O(n^2)
       
-      -Best case: Aradığımız sayının dizinin en başında olması.
+      -Best case: Aradığımız sayının dizinin en başında olması, O(n).
   
   4)Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
   
